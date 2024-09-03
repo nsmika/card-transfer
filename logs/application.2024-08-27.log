@@ -1,0 +1,112 @@
+2024-08-27 21:10:56.282 [main] INFO  r.n.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.10 on nsmikabeast with PID 17412 (C:\Users\Администратор\IdeaProjects\TransferCard\target\classes started by Миша in C:\Users\Администратор\IdeaProjects\TransferCard)
+2024-08-27 21:10:56.284 [main] INFO  r.n.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-27 21:10:57.049 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+2024-08-27 21:10:57.057 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-08-27 21:10:57.057 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-27 21:10:57.057 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-27 21:10:57.127 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-27 21:10:57.128 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 801 ms
+2024-08-27 21:10:57.173 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'transferController' defined in file [C:\Users\Администратор\IdeaProjects\TransferCard\target\classes\ru\netology\controller\TransferController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'transferService' defined in file [C:\Users\Администратор\IdeaProjects\TransferCard\target\classes\ru\netology\service\TransferService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'ru.netology.repository.LogRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-08-27 21:10:57.176 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-08-27 21:10:57.189 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-08-27 21:10:57.207 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in ru.netology.service.TransferService required a bean of type 'ru.netology.repository.LogRepository' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'ru.netology.repository.LogRepository' in your configuration.
+
+2024-08-27 21:12:45.884 [main] INFO  r.n.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.10 on nsmikabeast with PID 8344 (C:\Users\Администратор\IdeaProjects\TransferCard\target\classes started by Миша in C:\Users\Администратор\IdeaProjects\TransferCard)
+2024-08-27 21:12:45.886 [main] INFO  r.n.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-27 21:12:46.566 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+2024-08-27 21:12:46.574 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-08-27 21:12:46.575 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-27 21:12:46.575 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-27 21:12:46.644 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-27 21:12:46.644 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 721 ms
+2024-08-27 21:12:46.685 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'transferController' defined in file [C:\Users\Администратор\IdeaProjects\TransferCard\target\classes\ru\netology\controller\TransferController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'transferService' defined in file [C:\Users\Администратор\IdeaProjects\TransferCard\target\classes\ru\netology\service\TransferService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'ru.netology.repository.LogRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-08-27 21:12:46.687 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-08-27 21:12:46.698 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-08-27 21:12:46.716 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in ru.netology.service.TransferService required a bean of type 'ru.netology.repository.LogRepository' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'ru.netology.repository.LogRepository' in your configuration.
+
+2024-08-27 21:14:09.769 [main] INFO  r.n.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.10 on nsmikabeast with PID 17624 (C:\Users\Администратор\IdeaProjects\TransferCard\target\classes started by Миша in C:\Users\Администратор\IdeaProjects\TransferCard)
+2024-08-27 21:14:09.771 [main] INFO  r.n.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-27 21:14:10.448 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+2024-08-27 21:14:10.455 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-08-27 21:14:10.456 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-27 21:14:10.456 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-27 21:14:10.524 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-27 21:14:10.524 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 713 ms
+2024-08-27 21:14:10.568 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'transferController' defined in file [C:\Users\Администратор\IdeaProjects\TransferCard\target\classes\ru\netology\controller\TransferController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'transferService' defined in file [C:\Users\Администратор\IdeaProjects\TransferCard\target\classes\ru\netology\service\TransferService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'ru.netology.repository.LogRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-08-27 21:14:10.572 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-08-27 21:14:10.584 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-08-27 21:14:10.601 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in ru.netology.service.TransferService required a bean of type 'ru.netology.repository.LogRepository' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'ru.netology.repository.LogRepository' in your configuration.
+
+2024-08-27 21:16:17.950 [main] INFO  r.n.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.10 on nsmikabeast with PID 5740 (C:\Users\Администратор\IdeaProjects\TransferCard\target\classes started by Миша in C:\Users\Администратор\IdeaProjects\TransferCard)
+2024-08-27 21:16:17.953 [main] INFO  r.n.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-27 21:16:18.633 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+2024-08-27 21:16:18.641 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-08-27 21:16:18.641 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-27 21:16:18.641 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-27 21:16:18.710 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-27 21:16:18.711 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 722 ms
+2024-08-27 21:16:18.759 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'transferController' defined in file [C:\Users\Администратор\IdeaProjects\TransferCard\target\classes\ru\netology\controller\TransferController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'transferService' defined in file [C:\Users\Администратор\IdeaProjects\TransferCard\target\classes\ru\netology\service\TransferService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'ru.netology.repository.LogRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-08-27 21:16:18.761 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-08-27 21:16:18.773 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-08-27 21:16:18.789 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in ru.netology.service.TransferService required a bean of type 'ru.netology.repository.LogRepository' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'ru.netology.repository.LogRepository' in your configuration.
+

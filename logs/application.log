@@ -1,0 +1,53 @@
+2024-09-03 20:26:53.384 [main] INFO  r.n.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.10 on nsmikabeast with PID 17028 (C:\Users\Администратор\IdeaProjects\TransferCard\target\classes started by Миша in C:\Users\Администратор\IdeaProjects\TransferCard)
+2024-09-03 20:26:53.393 [main] INFO  r.n.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-03 20:26:54.145 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+2024-09-03 20:26:54.153 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-09-03 20:26:54.153 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-03 20:26:54.153 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-09-03 20:26:54.225 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-03 20:26:54.225 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 789 ms
+2024-09-03 20:26:54.466 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-09-03 20:26:54.480 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+2024-09-03 20:26:54.488 [main] INFO  r.n.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 1.403 seconds (JVM running for 1.842)
+2024-09-03 20:27:59.247 [http-nio-5500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-03 20:27:59.247 [http-nio-5500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-03 20:27:59.248 [http-nio-5500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-09-03 20:30:50.335 [main] INFO  r.n.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.10 on nsmikabeast with PID 12784 (C:\Users\Администратор\IdeaProjects\TransferCard\target\classes started by Миша in C:\Users\Администратор\IdeaProjects\TransferCard)
+2024-09-03 20:30:50.337 [main] INFO  r.n.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-03 20:30:51.011 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+2024-09-03 20:30:51.018 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-09-03 20:30:51.019 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-03 20:30:51.019 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-09-03 20:30:51.089 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-03 20:30:51.089 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 711 ms
+2024-09-03 20:30:51.316 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-09-03 20:30:51.331 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+2024-09-03 20:30:51.338 [main] INFO  r.n.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 1.285 seconds (JVM running for 1.649)
+2024-09-03 20:30:58.667 [http-nio-5500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-03 20:30:58.667 [http-nio-5500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-03 20:30:58.667 [http-nio-5500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-09-03 21:24:01.673 [main] INFO  r.n.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.10 on nsmikabeast with PID 18484 (C:\Users\Администратор\IdeaProjects\TransferCard\target\classes started by Миша in C:\Users\Администратор\IdeaProjects\TransferCard)
+2024-09-03 21:24:01.676 [main] INFO  r.n.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-03 21:24:02.392 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+2024-09-03 21:24:02.399 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-09-03 21:24:02.399 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-03 21:24:02.399 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-09-03 21:24:02.466 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-03 21:24:02.466 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 749 ms
+2024-09-03 21:24:02.687 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-09-03 21:24:02.702 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+2024-09-03 21:24:02.709 [main] INFO  r.n.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 1.31 seconds (JVM running for 1.67)
+2024-09-03 21:28:07.261 [main] INFO  r.n.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.10 on nsmikabeast with PID 17764 (C:\Users\Администратор\IdeaProjects\TransferCard\target\classes started by Миша in C:\Users\Администратор\IdeaProjects\TransferCard)
+2024-09-03 21:28:07.263 [main] INFO  r.n.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-03 21:28:07.965 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+2024-09-03 21:28:07.973 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+2024-09-03 21:28:07.973 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-03 21:28:07.973 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-09-03 21:28:08.040 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-03 21:28:08.040 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 732 ms
+2024-09-03 21:28:08.265 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+2024-09-03 21:28:08.283 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+2024-09-03 21:28:08.289 [main] INFO  r.n.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 1.336 seconds (JVM running for 1.705)
+2024-09-03 21:28:37.415 [http-nio-5500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-03 21:28:37.416 [http-nio-5500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-03 21:28:37.416 [http-nio-5500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
